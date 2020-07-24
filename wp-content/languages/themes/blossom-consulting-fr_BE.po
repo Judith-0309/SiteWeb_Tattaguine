@@ -1,0 +1,165 @@
+# Translation of Themes - Blossom Consulting in French (Belgium)
+# This file is distributed under the same license as the Themes - Blossom Consulting package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-01-27 14:21:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr_BE\n"
+"Project-Id-Version: Themes - Blossom Consulting\n"
+
+#. Theme Name of the theme
+msgid "Blossom Consulting"
+msgstr "Blossom Consulting"
+
+#: functions.php:150
+msgid " Blossom Consulting | Developed By "
+msgstr "Blossom Consulting | Développé par "
+
+#: sections/shop.php:45
+msgid "Sold Out"
+msgstr "Rupture de stock"
+
+#: sections/shop.php:9
+msgid "Show your latest blog posts here. You can modify this section from Appearance > Customize > Front Page Settings > Shop Section."
+msgstr "Affichez vos derniers articles de blog ici. Vous pouvez modifier cette section depuis Apparence -> Personnalisation -> Réglages de page d’accueil -> Section boutique."
+
+#: inc/customizer.php:351
+msgid "Documentation Link: %1$sClick here.%2$s"
+msgstr "Lien de documentation : %1$sCliquez ici.%2$s"
+
+#: inc/customizer.php:349
+msgid "Demo Link: %1$sClick here.%2$s"
+msgstr "Lien de démo : %1$sCliquez ici.%2$s"
+
+#: inc/customizer.php:336
+msgid "Demo & Documentation"
+msgstr "Démo et documentation"
+
+#: inc/customizer.php:327
+msgid "Product Four"
+msgstr "Produit quatre"
+
+#: inc/customizer.php:306
+msgid "Product Three"
+msgstr "Produit trois"
+
+#: inc/customizer.php:285
+msgid "Product Two"
+msgstr "Produit deux"
+
+#: inc/customizer.php:264
+msgid "Product One"
+msgstr "Produit un"
+
+#: inc/customizer.php:239
+msgid "Section Content"
+msgstr "Contenu de la section"
+
+#: inc/customizer.php:229 inc/customizer.php:398
+msgid "Show your products here. You can modify this section from Appearance > Customize > Front Page Settings > Shop Section."
+msgstr "Affichez vos produits ici. Vous pouvez modifier cette section depuis Apparence -> Personnaliser -> Réglages de page d’accueil -> Section boutique."
+
+#: inc/customizer.php:214
+msgid "Section Title"
+msgstr "Titre de la section"
+
+#: sections/shop.php:8 inc/customizer.php:204 inc/customizer.php:391
+msgid "Shop"
+msgstr "Boutique"
+
+#: inc/customizer.php:194
+msgid "Enable to show shop section."
+msgstr "Activer pour afficher la section boutique."
+
+#: inc/customizer.php:193
+msgid "Enable Shop Section"
+msgstr "Activer la section boutique"
+
+#: inc/customizer.php:172
+msgid "Shop Section"
+msgstr "Section boutique"
+
+#: inc/customizer.php:161
+msgid "Banner Link"
+msgstr "Lien de bannière"
+
+#: inc/customizer.php:137
+msgid "Banner Label"
+msgstr "Libellé de bannière"
+
+#: sections/banner.php:15 inc/customizer.php:128 inc/customizer.php:384
+msgid "Discover More"
+msgstr "Découvrez en plus"
+
+#: inc/customizer.php:112
+msgid "Sub Title"
+msgstr "Sous-titre"
+
+#: sections/banner.php:14 inc/customizer.php:103 inc/customizer.php:377
+msgid "Sally is a solution focused therapist offering brief and often single session therapy. She has built a reputation for engaging workshops on Solution Focused Brief Therapy and Single Session Therapy, and have recently started to put her courses online."
+msgstr "Sally est une thérapeute axée sur la solution offrant une thérapie de session brève et souvent unique. Elle s’est bâtie une réputation d’ateliers sur la thérapie brève axée sur la solution et la thérapie à session unique, et a récemment commencé à mettre ses cours en ligne."
+
+#: inc/customizer.php:87
+msgid "Title"
+msgstr "Titre"
+
+#: sections/banner.php:13 inc/customizer.php:78 inc/customizer.php:370
+msgid "The Secrets to Successful Team Leadership"
+msgstr "Les secrets de la gestion d’équipe réussie"
+
+#: inc/customizer.php:67
+msgid "Banner as Slider"
+msgstr "Bannière en diaporama"
+
+#: inc/customizer.php:66
+msgid "Static/Video Newsletter Banner"
+msgstr "Bannière de newsletter statique/vidéo"
+
+#: inc/customizer.php:65
+msgid "Static/Video CTA Banner"
+msgstr "Bannière de CTA statique/vidéo"
+
+#: inc/customizer.php:64
+msgid "Disable Banner Section"
+msgstr "Désactiver la section de bannière"
+
+#: inc/customizer.php:61
+msgid "Choose banner as static image/video or as a slider."
+msgstr "Choisissez la bannière en tant qu’image/vidéo statique ou comme diaporama."
+
+#: inc/customizer.php:60
+msgid "Banner Options"
+msgstr "Options de bannière"
+
+#: inc/customizer.php:34
+msgid "Change the font size of your site title."
+msgstr "Changez la taille de police du titre de votre site."
+
+#: inc/customizer.php:33
+msgid "Site Title Font Size"
+msgstr "Taille de police du titre de site"
+
+#: functions.php:152
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: functions.php:152
+msgid " Powered by %s"
+msgstr "Propulsé par %s"
+
+#. Author URI of the theme
+msgid "https://blossomthemes.com/"
+msgstr "https://blossomthemes.com/"
+
+#. Author of the theme
+#: functions.php:151
+msgid "Blossom Themes"
+msgstr "Blossom Themes"
+
+#. Theme URI of the theme
+msgid "https://blossomthemes.com/downloads/blossom-consulting-free-wordpress-theme/"
+msgstr "https://blossomthemes.com/downloads/blossom-consulting-free-wordpress-theme/"

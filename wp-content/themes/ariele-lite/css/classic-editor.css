@@ -1,0 +1,618 @@
+/* --------------------------------------------------------------------------------------------- */
+/*	Editor Styles — Classic Editor
+/* --------------------------------------------------------------------------------------------- */
+
+/* Structure --------------------------------- */
+
+body#tinymce.wp-editor {
+    background: #fff;
+    color: #686868;
+    font-family: Tahoma, Arial, Sans-serif;
+    line-height: 1.6;
+    font-size: 100%;
+    margin: 1rem auto;
+    overflow-x: hidden;
+    position: relative;
+    width: 860px;
+}
+
+body#tinymce.wp-editor * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Headings ------------------------------------ */
+
+body#tinymce.wp-editor h1,
+body#tinymce.wp-editor h2,
+body#tinymce.wp-editor h3,
+body#tinymce.wp-editor h4,
+body#tinymce.wp-editor h5,
+body#tinymce.wp-editor h6 {
+    color: #1b1b1b;
+    clear: both;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1.1;
+    margin: 2rem 0 1.5rem;
+}
+
+body#tinymce.wp-editor h1 {
+    font-size: 2rem;
+}
+
+body#tinymce.wp-editor h2 {
+    font-size: 1.75rem;
+}
+
+body#tinymce.wp-editor h3 {
+    font-size: 1.5rem;
+}
+
+body#tinymce.wp-editor h4 {
+    font-size: 1.25rem;
+}
+
+body#tinymce.wp-editor h5 {
+    font-size: 1.125rem;
+}
+
+body#tinymce.wp-editor h6 {
+    font-size: 1.063rem;
+}
+
+body#tinymce.wp-editor h1,
+body#tinymce.wp-editor h2 {
+    line-height: 1;
+}
+
+body#tinymce.wp-editorh4,
+body#tinymce.wp-editorh5 {
+    margin: 2rem 0 1.125rem;
+}
+
+
+/* Elements ------------------------------------ */
+
+body#tinymce.wp-editor a {
+    color: #ef562f;
+    text-decoration: none;
+}
+
+body#tinymce.wp-editor p a,
+body#tinymce.wp-editor li a {
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+body#tinymce.wp-editor p,
+body#tinymce.wp-editor ul,
+body#tinymce.wp-editor ol,
+body#tinymce.wp-editor blockquote {
+    margin: 0 0 1.8rem;
+}
+
+/*--------------------------------------------------------------
+	# Lists
+--------------------------------------------------------------*/
+body#tinymce.wp-editor hr {
+    background: #dedede;
+    border: 0;
+    height: 1px;
+    margin: 2rem auto;
+}
+
+body#tinymce.wp-editor hr.spacer {
+    background: transparent;
+    height: 2.5rem;
+    margin: 0;
+}
+
+body#tinymce.wp-editor ul,
+body#tinymce.wp-editor ol {
+    margin: 0 0 1.75em 1.25em;
+    padding: 0;
+}
+
+body#tinymce.wp-editor ul {
+    list-style: disc;
+}
+
+body#tinymce.wp-editor ol {
+    list-style: decimal;
+    margin-left: 1.5em;
+}
+
+body#tinymce.wp-editor li > ul,
+body#tinymce.wp-editor li > ol {
+    margin-bottom: 0;
+}
+
+body#tinymce.wp-editor dl {
+    margin: 0 0 1.75em;
+}
+
+body#tinymce.wp-editor dt {
+    font-weight: 700;
+}
+
+body#tinymce.wp-editor dd {
+    margin: 0 1rem 1.75em;
+    line-height: 1.5;
+}
+
+
+body#tinymce.wp-editor code,
+body#tinymce.wp-editor kbd,
+body#tinymce.wp-editor pre,
+body#tinymce.wp-editor samp {
+    color: inherit;
+    font-size: .9em;
+}
+
+/* Inline elements */
+body#tinymce.wp-editor address {
+    margin: 0 0 1.5em;
+}
+
+body#tinymce.wp-editor abbr,
+body#tinymce.wp-editor acronym {
+    border-bottom: 1px dotted #666;
+    cursor: help;
+}
+
+body#tinymce.wp-editor kbd {
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+    color: #333;
+    display: inline-block;
+    font-size: 0.813rem;
+    font-weight: 500;
+    line-height: 1;
+    padding: 2px 4px;
+    white-space: nowrap;
+}
+
+body#tinymce.wp-editor mark,
+body#tinymce.wp-editor ins {
+    background: yellow;
+    padding: 0 4px;
+    text-decoration: none;
+}
+
+/* Code */
+body#tinymce.wp-editor pre {
+    position: relative;
+    padding: 2rem;
+    background: #f7f7f7;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    font-size: 0.938rem;
+    color: #656565;
+    border: 1px solid #c2a68c;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left: none;
+    border-right: none;
+    margin: 2rem 0;
+}
+
+body#tinymce.wp-editor code {
+    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    font-size: 1rem;
+    font-size: 0.9375rem;
+    padding: 0 0.5rem;
+    background: #f7f7f7;
+    border: 1px solid #ebebeb;
+    color: #ef562f;
+}
+
+body#tinymce.wp-editor code,
+body#tinymce.wp-editor kbd,
+body#tinymce.wp-editor tt,
+body#tinymce.wp-editor var {
+    font-family: georgia, serif;
+    font-size: 1rem;
+}
+
+body#tinymce.wp-editor :not(pre) > * > code,
+body#tinymce.wp-editor :not(pre) > code {
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    border-radius: 3px;
+    color: #d14;
+    font-size: 0.813rem;
+    margin: 0 5px;
+    padding: 1px 8px;
+    word-wrap: break-word;
+    white-space: nowrap;
+}
+
+body#tinymce.wp-editor pre {
+    background: #f9f9f9;
+    border: 1px solid #dedede;
+    border-left-width: 4px;
+    font-size: 1rem;
+    font-family: monospace;
+    line-height: 1.5;
+    margin: 2rem 0;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.75rem;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+body#tinymce.wp-editor pre code {
+    padding: 0;
+    color: #3f3b36;
+    background: transparent;
+    font-size: 1rem;
+}
+
+body#tinymce.wp-editor hr {
+    border: none;
+    border-top: 1px solid #E1E1E3;
+    margin: 2em auto;
+    width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Captions
+--------------------------------------------------------------*/
+
+body#tinymce.wp-editor .wp-caption {
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+}
+
+body#tinymce.wp-editor .wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body#tinymce.wp-editor .wp-caption-text {
+    color: #1b1b1b;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.75rem 0 0;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+body#tinymce.wp-editor .wp-caption-text a {
+    color: #d6ac6a;
+}
+
+body#tinymce.wp-editor .wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin: 0;
+}
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+body#tinymce.wp-editor img {
+    height: auto;
+    max-width: 100%;
+}
+
+body#tinymce.wp-editor img[data-wp-more] {
+    height: 16px;
+}
+
+body#tinymce.wp-editor figure {
+    margin: 1em 0;
+    position: relative;
+}
+
+
+body#tinymce.wp-editor iframe {
+    display: block;
+    max-width: 100%;
+}
+
+body#tinymce.wp-editor img,
+body#tinymce.wp-editor embed,
+body#tinymce.wp-editor object {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+
+
+/* quotes -------------------------------- */
+
+body#tinymce.wp-editor blockquote {
+    color: #1b1b1b;
+    font-family: Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.375;
+    margin: 4rem 2rem 3rem;
+    position: relative;
+    z-index: 2;
+}
+
+body#tinymce.wp-editor blockquote::before {
+    content: "\201C";
+    font-family: "Times new Roman", serif;
+    color: #f5f2ed;
+    color: #fde8e3;
+    font-size: 250px;
+    font-size: calc(1rem + 13vw);
+    font-style: italic;
+    line-height: 0;
+    position: absolute;
+    left: -2.5rem;
+    font-weight: 700;
+    top: 2.5rem;
+    z-index: -1;
+}
+
+body#tinymce.wp-editor blockquote::after {
+    /*Reset to make sure*/
+    content: "";
+}
+
+body#tinymce.wp-editor blockquote p {
+    margin-bottom: 6px;
+    opacity: 0.9;
+}
+
+body#tinymce.wp-editor blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+body#tinymce.wp-editor blockquote a {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 3px;
+}
+
+body#tinymce.wp-editor blockquote a:hover {
+    opacity: 0.8;
+}
+
+body#tinymce.wp-editor cite,
+body#tinymce.wp-editor blockquote cite {
+    font-size: 55%;
+    opacity: 0.65;
+}
+
+body#tinymce.wp-editor blockquote cite {
+    display: block;
+    margin: 1rem 0;
+}
+
+body#tinymce.wp-editor blockquote cite:before {
+    content: "\2014";
+    font-family: Arial, sans-serif;
+    margin-right: 4px;
+}
+
+body#tinymce.wp-editor blockquote.alignleft,
+body#tinymce.wp-editor blockquote.alignright {
+    margin-bottom: 0;
+}
+
+body#tinymce.wp-editor blockquote.alignleft,
+body#tinymce.wp-editor blockquote.alignright {
+    margin-bottom: 0;
+    display: block;
+    width: 100%;
+}
+
+
+
+/* Tables */
+body#tinymce.wp-editor table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-bottom: 1px solid #efefef;
+    border-color: #ebebeb;
+    margin: 1rem 0 2rem;
+    text-align: left;
+    width: 100%;
+}
+
+body#tinymce.wp-editor table caption {
+    color: #989898;
+    padding: 0 0 5px 0;
+    width: auto;
+    font-style: italic;
+    text-align: right;
+    font-size: 12px;
+}
+
+body#tinymce.wp-editor table th,
+body#tinymce.wp-editor table td {
+    border-bottom: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    padding: 6px
+}
+
+body#tinymce.wp-editor table td {
+    text-align: left;
+}
+
+body#tinymce.wp-editor table th {
+    background: #dcdcdc;
+    color: #1b1b1b;
+    font-size: 0.875rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 9px 12px;
+    border: 1px solid #ebebeb;
+    border-left: none;
+    border-top: none;
+}
+
+body#tinymce.wp-editor tr th:first-child,
+body#tinymce.wp-editor tr td:first-child {
+    border-color: #ebebeb;
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+
+body#tinymce.wp-editor tr:first-child th,
+body#tinymce.wp-editor tr:first-child td {
+    border-color: #ebebeb;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+body#tinymce.wp-editor td {
+    padding: 9px 12px;
+    border: 1px solid #ebebeb;
+    border-left: none;
+    border-top: none;
+}
+
+body#tinymce.wp-editor tr th:first-child,
+body#tinymce.wp-editor tr td:first-child {
+    border-color: #ebebeb;
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+
+/* Alignments -------------------------------*/
+body#tinymce.wp-editor .alignleft,
+body#tinymce.wp-editor .alignright {
+    max-width: 40%;
+}
+
+body#tinymce.wp-editor .alignleft {
+    display: inline;
+    float: left;
+    margin: 0 2rem 1.25rem 0;
+}
+
+body#tinymce.wp-editor .alignright {
+    display: inline;
+    float: right;
+    margin: 0 0 1.25rem 2rem;
+}
+
+body#tinymce.wp-editor .aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto 1.25rem;
+}
+
+body#tinymce.wp-editor .alignnone {
+    margin: 0 0 1.25rem;
+}
+
+/* Gallery -------------------------------*/
+
+body#tinymce .gallery {
+    margin: 3rem -20px 2rem;
+}
+
+body#tinymce .gallery-item {
+    display: inline-block;
+    margin: 5px 0 2rem;
+    padding: 0 20px;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
+
+body#tinymce .gallery-icon {
+    background: #3e4a5f;
+    padding: 1px 1px 0;
+    text-align: center;
+}
+
+body#tinymce .gallery-icon img {
+    display: block;
+    filter: grayscale(1);
+    margin: auto;
+    width: 100%;
+}
+
+body#tinymce .gallery-icon img:hover {
+    filter: grayscale(0);
+}
+
+body#tinymce .gallery-columns-2 .gallery-item,
+body#tinymce .gallery-columns-3 .gallery-item,
+body#tinymce .gallery-columns-4 .gallery-item,
+body#tinymce .gallery-columns-5 .gallery-item,
+body#tinymce .gallery-columns-6 .gallery-item,
+body#tinymce .gallery-columns-7 .gallery-item,
+body#tinymce .gallery-columns-8 .gallery-item,
+body#tinymce .gallery-columns-9 .gallery-item {
+    max-width: 100%;
+}
+
+body#tinymce .gallery-caption {
+    text-transform: uppercase;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 1px;
+    padding: 12px 10px 10px;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    body#tinymce .gallery-columns-2 .gallery-item {
+        max-width: 50%;
+    }
+
+    body#tinymce .gallery-columns-3 .gallery-item {
+        max-width: 33.33%;
+    }
+
+    body#tinymce .gallery-columns-4 .gallery-item {
+        max-width: 25%;
+    }
+
+    body#tinymce .gallery-columns-5 .gallery-item {
+        max-width: 20%;
+    }
+
+    body#tinymce .gallery-columns-6 .gallery-item {
+        max-width: 16.66%;
+    }
+
+    body#tinymce .gallery-columns-7 .gallery-item {
+        max-width: 14.28%;
+    }
+
+    body#tinymce .gallery-columns-8 .gallery-item {
+        max-width: 12.5%;
+    }
+
+    body#tinymce .gallery-columns-9 .gallery-item {
+        max-width: 11.11%;
+    }
+}
+
+/* Buttons - Forms -------------------------------*/
+body#tinymce.wp-editor .button {
+    background: #1b1b1b;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 0.875rem;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 0.813em 0.875rem 0.75rem;
+    text-transform: uppercase;
+}

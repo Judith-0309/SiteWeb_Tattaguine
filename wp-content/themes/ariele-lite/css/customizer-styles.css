@@ -1,0 +1,71 @@
+/*
+ * Customizer Controls CSS
+ * Adjusts styling for theme option controls in the Customizer
+ * @package Ariele_Lite
+ */
+
+.customizer-note {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin: 0.688rem 0 0;
+    display: block;
+    background: #32373c;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.customize-control hr {
+    margin: 0.75rem 0 0;
+}
+
+/* Enhance the Customizer default styles */
+.customize-control input[type="text"],
+.customize-control input[type="number"] {
+    margin-bottom: 0;
+}
+
+.customize-control-checkbox {
+    margin-bottom: 0;
+}
+
+/* default contrast in WordPress is not enough */
+#customize-outer-theme-controls .accordion-section-content, 
+#customize-theme-controls .accordion-section-content {
+    color: #000;
+}
+
+/* Upgrade Styling */
+.rp-discount-code {
+    font-weight: 700;
+}
+
+.rp-discount {
+    font-size: 1rem;
+    color: #ffffff;
+    background: #32373c;
+    margin: 1.5rem auto;
+    padding: 8px 12px;
+}
+
+.rp-pro-title {
+    font-size: 1.063rem;
+    font-weight: 700;
+}
+
+.rp-pro-list {
+    font-size: 14px;
+    margin: 10px 0;
+}
+.rp-get-pro.button {
+    background-color: #008ec2;
+    border-color: #008ec2;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0 1rem;
+}
+.rp-get-pro.button:hover {
+	background-color: #ef562f;
+    border-color: #ef562f;
+    color: #fff;
+}

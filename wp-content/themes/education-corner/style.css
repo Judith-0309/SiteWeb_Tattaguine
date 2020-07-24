@@ -1,0 +1,222 @@
+/*
+Theme Name:     Education Corner
+Template:       business-corner
+Theme URI:      https://themescorners.com/product/education-corner/
+Author: Themescorners
+Author URI: https://themescorners.com
+Description: Education Corner is multipurpose responsive, clean and unique WordPress Theme for any Education purpose. Education Corner have easy navigate Customizer by this you can easily customize theme in just few clicks. This theme gives you awesome looking website just put you contents and its ready to go. Education Corner is also available for WooCommerce. Now Education Corner is also a store theme. This theme is also use for blogs, store, shop, eCommerce, Education, personal site. See Demo : http://themescorners.in/education-corner
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: education-corner
+Tags: custom-colors, custom-header, custom-logo, e-Commerce, grid-layout, footer-widgets, blog, one-column, two-columns, full-width-template, sticky-post, threaded-comments, left-sidebar, flexible-header, custom-menu, featured-images, theme-options, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Business Corner is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/* New Css */
+.ep-member {
+    margin: 0;
+    margin-top: 30px;
+}
+.ep-member-detail {
+    box-shadow: 0px 0px 10px 1px #999;
+    margin: 5px !important;
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+.ep-member-detail .img-thumbnail {
+    position: relative;
+    border: 0;
+    overflow: hidden;
+    display: block;
+    width: 150px;
+    height: auto;
+    margin: 40px auto;
+    padding: 15px;
+}
+.ep-member-detail .img-thumbnail:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+}
+.bs-member{
+    background-color: rgba(255,255,255,0.8);
+}
+.bs-member-back{
+    background-image: url(assets/images/men-1979261_1920.jpg);
+    background-size: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.bs-home-about {
+    margin: 0;
+    margin-top: 30px;
+    background-color: #f7f7f7;
+}
+.bs-home-about .img-thumbnail{
+    display:block;
+    padding:0;
+    border:0;
+    margin:0;
+}
+.bs-home-about .about-title {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 42px;
+    margin-top: 40px;
+}
+.bs-home-about .about-link::before {
+    content: "";
+    position: absolute;
+    border: 3px solid;
+    width: 30px;
+    height: 33px;
+    left: 20px;
+    border-right: 3px solid transparent;
+    margin-top: -4px;
+}
+.bs-home-about .about-link{
+    color: #333;
+    font-size: 18px;
+    padding: 5px 15px;
+    display: inline-block;
+    margin-left: 15px;
+    border-radius:0;
+}
+.ep-about-desc p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.ep-about-pics{
+    padding:0;
+}
+.bs-home-course {
+    margin: 0;
+    margin-top: 30px;
+}
+.ep-course-detail {
+    margin: 0;
+    background-color: #f7f7f7;
+    padding: 10px;
+}
+.ep-course-detail .img-thumbnail {
+    display: block;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+.bs-home-client{
+    margin:0;
+    margin-top:30px;
+}
+.home-client .img-thumbnail {
+    display: block;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+.bs-home-member {
+    margin: 0;
+    margin-top: 30px;
+}
+.bs-phone-icon i, .bs-mail-icon i, .bs-address-icon i {
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 16px !important;
+    padding-top: 10px !important;
+    border-radius:0 !important;
+}
+.bs-top-title {
+   font-size: 14px !important;
+}
+.bs-top-desc {
+    font-size: 16px !important;
+}
+.slider-heading {
+    font-size: 90px !important;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.slider-desc {
+    font-size: 30px !important;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+}
+.bs-home-slider .carousel-caption {
+    top: 20% !important;
+}
+.bs-social li a {
+    border-radius: 0 !important;
+}
+.bs-menu {
+    background-color: #333 !important;
+}
+.bs-menu .navbar-nav li a:hover{
+ color: #fff !important;   
+}
+.ports .img-thumbnail {
+    position: relative;
+}
+.ports .img-thumbnail .overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background-color: rgba(255,255,255,0.4);
+}
+.ports .port-title {
+    background-color: transparent !important;
+    font-size: 42px !important;
+    font-family: 'Cinzel Decorative', cursive;
+    margin-top: 40px !important;
+}
+.ports .port-title a {
+    color: #333;
+    font-weight: bold;
+}
+.bs-heading-title {
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+}
+.bs-heading-desc {
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+    font-size: 16px !important;
+}
+.bs-servs .ser-link {
+    border: 3px solid #ffb606;
+    border-radius: 0;
+    font-size: 18px;
+    padding: 5px 15px;
+    color: #333 !important;
+}
+.bs-servs .ser-link:before {
+    content: "";
+    position: absolute;
+    border: 3px solid #333;
+    width: 25px;
+    height: 30px;
+    margin-left: -30px;
+    border-right: 3px solid transparent;
+    margin-top: -1px;
+}
+.bs-blog {
+    margin: 0 !important;
+}
+.bs-home-blog {
+    margin: 0 !important;
+    margin-top: 20px !important;
+}

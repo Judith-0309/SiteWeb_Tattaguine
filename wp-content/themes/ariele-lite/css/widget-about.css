@@ -1,0 +1,23 @@
+/**
+* Styles for the About widget
+*/
+
+.portrait-image label {
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.portrait-image .selected-portrait,
+.portrait-image .portrait-actions {
+    margin: 15px 0 0;
+}
+
+.portrait-image.signature-image {
+    margin: 15px 0;
+}
+
+.portrait-image .selected-portrait img {
+    max-width: 100%;
+    height: auto;
+}
